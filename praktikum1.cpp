@@ -9,7 +9,7 @@ int main ()
     cout<<"nilai a: " <<a<<endl;
     cout<<"nilai b: " <<b<<endl;
     cout<<"nilai c: "<<c<<endl;
-    a = a+b // sama dengan a+=b
+    a = a+b; // sama dengan a+=b
     cout<<"nilai a setelah (a = a + b): " << a <<endl;
     return 0;
 }

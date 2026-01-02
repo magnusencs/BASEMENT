@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-    system("color 3d")
+    system("color 3d");
     int jumlahangka;
     cin>>jumlahangka;
     int arr[jumlahangka];
