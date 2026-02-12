@@ -1,12 +1,9 @@
-🔢 Hardcore Expression Calculator
 
 this is basically a calculator that reads a math expression from a string and evaluates it.
 It’s kinda like a manual, DIY version of the Shunting Yard algorithm, but built using my own personal approach.
 
 Honestly… I don’t even know why I made this. 
-
-✨ What It Does
-
+it
 Reads numbers and operators (+, -, *, /) directly from input.
 
 Sorts them manually by operator precedence (* and / first, then + and -).
@@ -58,11 +55,7 @@ Doesn’t handle negative numbers at the start.
 🛠️ Compile & Run
 g++ calculator.cpp -o calculator
 ./calculator
-
-📌 Why?
-
-Because I want it, not because I can.
-
+idk. 
 I spent 4 days making this.
 90% of the time was me staring at the code, overthinking solutions.
 Eventually, I gave up and asked GPT for help with the last 30%. That’s when it suggested:
@@ -74,4 +67,3 @@ Use a stack to handle calculations.
 …and yeah, it worked.
 But then GPT casually said: “btw there’s a cleaner way that takes like a quarter of your code.”
 
-Pain.
